@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Chez Jaqueline Cake Shop</string>
+    <string name="indulge_your_sweet_tooth">Indulge your sweet tooth…</string>
+    <string name="address">Bd. Carol I nr.29 \nDrobeta-Turnu Severin</string>
+    <string name="cakes_image">cakes image</string>
+    <string name="location_icon">location_icon</string>
+    <string name="timetable">Mon–Sat: 9:00–21:00\nSun: 11:00–19:00</string>
+    <string name="g_ic">Google+ icon</string>
+    <string name="t_ic">twitter icon</string>
+    <string name="txt">Indulge your sweet tooth</string>
+    <string name="ph">phone icon</string>
+    <string name="ph_no">07220000356</string>
+    <string name="e_ic">email icon</string>
+    <string name="email">orders@jaqcakeshop.com</string>
+    <string name="www_ic">website icon</string>
+    <string name="web">www.jaqcakeshop.com</string>
+    <string name="fb_ic">facebook icon</string>
+    <string name="insta_ic">instagram icon</string>
+    <string name="latitude">44.623326</string>
+    <string name="longitude">22.6465727</string>
+    <string name="facebook">https://www.facebook.com/</string>
+    <string name="twitter">https://twitter.com/</string>
+    <string name="instagram">https://www.instagram.com/</string>
+    <string name="google">https://plus.google.com/</string>
+    <string name="logo">cake logo image</string>
+</resources>

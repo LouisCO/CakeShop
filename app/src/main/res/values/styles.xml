@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+    </style>
+
+    <style name="text" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="icon" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="social_m_icon" parent="icon">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="upper_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="cake_img">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_below">@id/indulge</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_alignBottom">@+id/cakes_image</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginBottom">-60dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/round_shape</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="center_view">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_below">@id/www</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+
+</resources>
+

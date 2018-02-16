@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.android.cakeshop.MainActivity">
+
+        <ImageView
+            android:id="@+id/indulge"
+            style="@style/upper_text"
+            android:contentDescription="@string/txt"
+            android:src="@drawable/indulge" />
+
+        <ImageView
+            android:id="@+id/cakes_image"
+            style="@style/cake_img"
+            android:contentDescription="@string/cakes_image"
+            android:src="@drawable/cakes_image" />
+
+        <ImageView
+            android:id="@+id/logo"
+            style="@style/logo"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/b_cake" />
+
+        <ImageView
+            android:id="@+id/location_icon"
+            style="@style/icon"
+            android:layout_below="@id/cakes_image"
+            android:contentDescription="@string/location_icon"
+            android:onClick="onClick"
+            android:src="@drawable/location_dark" />
+
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/text"
+            android:layout_below="@id/cakes_image"
+            android:layout_toEndOf="@id/location_icon"
+            android:onClick="onClick"
+            android:text="@string/address" />
+
+        <ImageView
+            android:id="@+id/timetable_icon"
+            style="@style/icon"
+            android:layout_below="@id/location_icon"
+            android:contentDescription="@string/location_icon"
+            android:onClick="onClick"
+            android:src="@drawable/work_timetable" />
+
+        <TextView
+            android:id="@+id/timetable"
+            style="@style/text"
+            android:layout_below="@id/address"
+            android:layout_toEndOf="@id/timetable_icon"
+            android:onClick="onClick"
+            android:text="@string/timetable" />
+
+        <ImageView
+            android:id="@+id/phone_icon"
+            style="@style/icon"
+            android:layout_below="@+id/timetable_icon"
+            android:layout_toStartOf="@+id/timetable"
+            android:contentDescription="@string/ph"
+            android:onClick="onClick"
+            android:src="@drawable/telephone_dark" />
+
+        <TextView
+            android:id="@+id/phone"
+            style="@style/text"
+            android:layout_below="@id/timetable"
+            android:layout_toEndOf="@id/phone_icon"
+            android:onClick="onClick"
+            android:paddingTop="@dimen/text_padd_top"
+            android:text="@string/ph_no" />
+
+        <ImageView
+            android:id="@+id/email_icon"
+            style="@style/icon"
+            android:layout_below="@id/phone_icon"
+            android:contentDescription="@string/e_ic"
+            android:onClick="onClick"
+            android:src="@drawable/email_dark" />
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/text"
+            android:layout_below="@id/phone"
+            android:layout_toEndOf="@id/location_icon"
+            android:onClick="onClick"
+            android:paddingTop="@dimen/text_padd_top"
+            android:text="@string/email" />
+
+        <ImageView
+            android:id="@+id/www_icon"
+            style="@style/icon"
+            android:layout_below="@id/email_icon"
+            android:contentDescription="@string/www_ic"
+            android:onClick="onClick"
+            android:src="@drawable/www_dark" />
+
+        <TextView
+            android:id="@+id/www"
+            style="@style/text"
+            android:layout_below="@+id/email"
+            android:layout_toEndOf="@id/www_icon"
+            android:onClick="onClick"
+            android:paddingTop="@dimen/text_padd_top"
+            android:text="@string/web" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            style="@style/social_m_icon"
+            android:layout_below="@id/www_icon"
+            android:layout_toStartOf="@id/instagram"
+            android:contentDescription="@string/fb_ic"
+            android:onClick="onClick"
+            android:src="@drawable/facebook_dark" />
+
+        <ImageView
+            android:id="@+id/instagram"
+            style="@style/social_m_icon"
+            android:layout_below="@id/www_icon"
+            android:layout_toStartOf="@id/center"
+            android:contentDescription="@string/insta_ic"
+            android:onClick="onClick"
+            android:src="@drawable/instagram_dark" />
+        <!--This invisible view helps center the icons-->
+        <View
+            android:id="@+id/center"
+            style="@style/center_view" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            style="@style/social_m_icon"
+            android:layout_below="@id/www_icon"
+            android:layout_toEndOf="@id/center"
+            android:contentDescription="@string/t_ic"
+            android:onClick="onClick"
+            android:src="@drawable/twitter_dark" />
+
+        <ImageView
+            android:id="@+id/google"
+            style="@style/social_m_icon"
+            android:layout_below="@id/www_icon"
+            android:layout_toEndOf="@id/twitter"
+            android:contentDescription="@string/g_ic"
+            android:onClick="onClick"
+            android:src="@drawable/google_plus_dark" />
+
+    </RelativeLayout>
+</ScrollView>
+
+
