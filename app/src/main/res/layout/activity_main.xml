@@ -111,10 +111,13 @@
             android:paddingTop="@dimen/text_padd_top"
             android:text="@string/web" />
 
+        <View
+            android:id="@+id/separator"
+            style="@style/separator" />
+
         <ImageView
             android:id="@+id/facebook"
             style="@style/social_m_icon"
-            android:layout_below="@id/www_icon"
             android:layout_toStartOf="@id/instagram"
             android:contentDescription="@string/fb_ic"
             android:onClick="onClick"
@@ -123,7 +126,6 @@
         <ImageView
             android:id="@+id/instagram"
             style="@style/social_m_icon"
-            android:layout_below="@id/www_icon"
             android:layout_toStartOf="@id/center"
             android:contentDescription="@string/insta_ic"
             android:onClick="onClick"
@@ -136,7 +138,6 @@
         <ImageView
             android:id="@+id/twitter"
             style="@style/social_m_icon"
-            android:layout_below="@id/www_icon"
             android:layout_toEndOf="@id/center"
             android:contentDescription="@string/t_ic"
             android:onClick="onClick"
@@ -145,7 +146,6 @@
         <ImageView
             android:id="@+id/google"
             style="@style/social_m_icon"
-            android:layout_below="@id/www_icon"
             android:layout_toEndOf="@id/twitter"
             android:contentDescription="@string/g_ic"
             android:onClick="onClick"

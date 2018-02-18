@@ -29,9 +29,10 @@
     </style>
 
     <style name="social_m_icon" parent="icon">
+        <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginBottom">8dp</item>
         <item name="android:layout_marginLeft">0dp</item>
-        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_below">@id/separator</item>
         <item name="android:padding">8dp</item>
     </style>
 
@@ -51,11 +52,11 @@
     </style>
 
     <style name="logo">
-        <item name="android:layout_width">120dp</item>
-        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
         <item name="android:layout_alignBottom">@+id/cakes_image</item>
         <item name="android:layout_alignParentEnd">true</item>
-        <item name="android:layout_marginBottom">-60dp</item>
+        <item name="android:layout_marginBottom">-50dp</item>
         <item name="android:layout_marginEnd">16dp</item>
         <item name="android:background">@drawable/round_shape</item>
         <item name="android:elevation">8dp</item>
@@ -66,6 +67,16 @@
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_below">@id/www</item>
         <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="separator">
+        <item name="android:layout_below">@id/www</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:foreground">@color/primaryDarkColor</item>
     </style>
 
 
